@@ -1,0 +1,66 @@
+            body {
+              font-family: Arial;
+              background-color: rgb(3, 3, 61);
+            }
+            
+            * {
+              box-sizing: border-box;
+            }
+            
+            form.example input[type=text] {
+              padding: 10px;
+              font-size: 17px;
+              border: 1px solid grey;
+              float: left;
+              width: 80%;
+              background: #f1f1f1;
+            }
+            
+            form.example button {
+              float: left;
+              width: 20%;
+              padding: 10px;
+              background: #ffffff;
+              color: black;
+              font-size: 17px;
+              border: 1px solid grey;
+              border-left: none;
+              cursor: pointer;
+            }
+            
+            form.example button:hover {
+              background: #0b7dda;
+            }
+            
+            form.example::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+            
+            @media screen and (min-width: 601px) {
+              div.parag {
+                font-size: 25px;
+              }
+            }
+            
+            @media screen and (max-width: 600px) {
+              div.parag {
+                font-size: 25px;
+              }
+            }
+
+            @media screen and (min-width: 601px) {
+              div.parag2 {
+                font-size: 18px;
+              }
+            }
+            
+            @media screen and (max-width: 600px) {
+              div.parag2 {
+                font-size: 12px;
+              }
+            }
+
+    
+  
